@@ -1,0 +1,82 @@
+.table td, .table th {
+  padding: 1rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #FBBA15;
+  border-bottom-width: medium;
+  background: none;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+  padding: 16px;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+  padding: 16px;
+}
+
+div.dataTables_scroll {
+  border-left: 1px solid #DADEE3;
+  border-right: 1px solid #DADEE3;
+}
+
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+  background-color: rgba(251,186,21,0.75);
+}
+
+th, td {
+  white-space: nowrap;
+}
+
+#header {
+  background-color: white;
+}
+
+#cheeses {
+  background-color: rgba(0,0,0,0.03);
+}
+
+#header .btn {
+  background: #FBBA15;
+  border-color: #EAA10F;
+  color: black;
+  font-size: 16px;
+}
+
+#navbar .navbar-brand {
+  font-size: 32px;
+}
+
+#cheeses tbody {
+  background: rgba(255,255,255,0.5);
+}
+
+#cheeses thead {
+  background-color: white;
+}
+
+#header h1 {
+  font-size: 44px;
+}
+
+#header .fa {
+  margin-left: 6px;
+}
+
+#header-content {
+  text-align: right;
+}
+
+#cheeses-content {
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+#cheeses .table-responsive {
+  margin-bottom: 64px;
+}
+

@@ -6,7 +6,13 @@ $(document).ready(function() {
             [10, 20, -1],
             [10, 20, 'All']
         ],
-        "pagingType": "full_numbers",
+        "pagingType": "simple_numbers",
+        "language": {
+            "paginate": {
+                "previous": "◄",
+                "next": "►"
+            }
+        },
         "columns": [
             { "data" : "name" },
             {
